@@ -1,61 +1,36 @@
- /* Adding media query to hide the navbar and only show a drop-down when the screen is smaller than 600 pixels. Mobile first to increase speed. */
- @media (max-width: 600px) {
-    .navbar{
-        visibility: hidden}
-    .navbarsm{
-        visibility: visible;}
-  } 
-
-/* Adding media query to show the navbar when the screen is greater than 600 pixels */
-@media (min-width: 601px) {
-
-/* Set background color for top container */
-.container1 {
-    background-color: white;
-    height: 80px;}
-
-/* Set box color and float for header H1 */
-.header {
-    position: absolute;
-    top: 8px;
-    left: 0px;
-    height: 80px;
-    width: 150px;
-    background-color: teal;
-    margin-left: 30px;
-    margin-top:0px;}
-
-h1 a {
+/* Set style for navbar header text */
+h1 {
     position: relative;
-    top: 15px;
-    font-size: 32px;
-    color: white;
+    top: 10px;
+    left: 7px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;}
 
-h1 {position: absolute;
-    bottom: 20px;
-    left: 10px;}
+/* Set white background for navbar area */
+.box1{
+    height:70px;
+    width:100%;
+    background-color: white;}
 
-/* Float navbar to right and add padding*/
-.navbar {
-    float: right;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    margin-right: 30px;
-    background-color: white;
-    visibility: visible}
+/* Set teal box around navbar */
+.box2{
+    height:70px;
+    width: 160px;
+    background-color: teal !important;
+    margin-left: 30px;
+    color: white;}
 
+/* Unused code since dropdown not functioning 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white; }
-    
+    background-color: white;}
+
 li {float: left; }
 
-li a, .dropbtn {
+li a, button {
     display: inline-block;
     color: black;
     text-align: center;
@@ -63,13 +38,13 @@ li a, .dropbtn {
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
-li a:hover, .dropdown:hover .dropbtn {
+li a:hover, .dropdown-menu:hover, button {
     background-color: darkgray; }
                   
-li.dropdown {
+li.dropdown-menu {
     float: left;}
                   
-.dropdown-content {
+.dropdown-menu {
     display: none;
     position: absolute;
     min-width: 160px;
@@ -77,51 +52,42 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;}
                   
-.dropdown-content a {
+.dropdown-menu a {
     color: black;
     padding: 8px 8px;
     text-decoration: none;
     display: block;
     text-align: left;}
                   
-.dropdown-content a:hover {background-color: darkgray;}
+.dropdown-menu a:hover {background-color: darkgray;}
                   
 .dropdown:hover .dropdown-content {
-    display: block;}
+    display: block;} */
 
-.navbarsm{
-    visibility: hidden;}
-}
+body{background-color: #f1f1f1 !important;}
 
-body {background: #f1f1f1;}
-  
+.col-md-8{padding: 30px;}
+
 h2 {
     color:teal;
     font-size: 40px;
-    float: left;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 
-.container2 {
+/*#container2 {
     background-color: white;
-    height: 500px;
-    width: 60%;
-    float: left;
-    margin: 20px;
-}
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+    height: 600px;
+    float: left;}
 
-.container3{
+.container3 {
     background-color: white;
-    height: 500px;
-    width: 30%;
-    float: right;
-    margin: 20px;
-}
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right:20px;
+    float: right;}*/
 
-.section {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 
