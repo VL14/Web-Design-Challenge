@@ -20,6 +20,46 @@ h1 {
     margin-left: 30px;
     color: white;}
 
+/* Set white box around content */
+.box3{
+    height: 600px;
+    background-color: white;
+    margin-left: 40px;
+    position: relative;
+    right: 220px;}
+
+/* Set white box around right sidebar with visualizations */
+.box4{
+    height: 810px;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    left: 650px;
+    bottom: 630px;}
+
+body{background-color: #f1f1f1 !important;}
+
+.col-md-8{padding: 30px;}
+
+h2 {
+    color:teal;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;}
+
+p {padding: 15px;}
+
+header h2 {
+    font-size: 40px;
+    font-weight: 300;}
+
+/*.col-md-2{
+    position: absolute;
+    right:0;
+    left:150px;
+    }*/
+
 /* Unused code since dropdown not functioning 
 ul {
     list-style-type: none;
@@ -64,30 +104,6 @@ li.dropdown-menu {
 .dropdown:hover .dropdown-content {
     display: block;} */
 
-body{background-color: #f1f1f1 !important;}
 
-.col-md-8{padding: 30px;}
-
-h2 {
-    color:teal;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-left: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
-
-/*#container2 {
-    background-color: white;
-    margin-top: 20px;
-    margin-left: 0;
-    margin-right: 10px;
-    height: 600px;
-    float: left;}
-
-.container3 {
-    background-color: white;
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right:20px;
-    float: right;}*/
 
 
