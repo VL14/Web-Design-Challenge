@@ -21,4 +21,4 @@ Navigation:
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown on the right of the navbar named "Plots" which provides links to each individual visualization page.
 
-Direct Link to Website: 
+Direct Link to Website: https://github.com/VL14/Web_Design_Challenge
